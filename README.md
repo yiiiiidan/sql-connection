@@ -14,17 +14,15 @@ On sequel pro we have Zoe production database environment and all you need is to
 # Connect Sequel Pro to Zoe Fin Database
 - On the home page of Sequel Pro, choose SSH 
 - The access to the production server you must use the credentials below:
-
-Server:
-SSH User: query
-SSH Host: 18.218.10.77
-no password
-
-MySQL:
-User: query
-Password: XYvRWAX4v3Nwt4.C
-DB: app_zoefin_production
-default port (3306)   
-
-Also attach a screenshot of that here: 
+  1. MySQL Host:127.0.0.1
+  2. Username: query 
+  3. Password: XYvRWAX4v3Nwt4.C
+  4.Database: app_zoefin_production
+  5.Port: 3306 (default port)   
+  6.SSH Host: 18.218.10.77
+  7.SSH User: query
+  8.SSH Key: the key file(.pem) is attached to the email I sent to you 
+  9.SSH Port: leave it as blank
+  
+ 
 
